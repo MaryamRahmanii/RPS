@@ -1,6 +1,98 @@
-:root {
-}
-
 * {
   box-sizing: border-box;
 }
+ @font-face {
+        font-family: 'poppins';
+       src: url("assets/fonts/Poppins-Bold.ttf");
+      }
+ :root {
+  /* --"somekey-attr": "somevalue" i.e : */
+  --black-700: #000;
+  --banafsh: #4E3399FF;
+  --narenji: #FA8305;
+  --banafshkam:#5141AA;
+  --ghahveii:#DC700059;
+  --siah:#1C140F;
+  --khakstri:#898989;
+}
+ header{
+        background-color: var(--banafsh);
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+      #result{
+        font-family: poppins;
+      }
+      .scores{
+        background-color: var(--banafsh);
+        font-family: poppins;
+        padding-bottom: 30px;
+
+      }
+      .choices{
+        background-color: var(--banafsh);
+        font-family: poppins;
+        padding-bottom: 30px;
+
+      }
+      main{
+        padding-top: 50px;
+        background-color: var(--banafsh);
+        gap:10%;
+      }
+      @media screen and(max-width:500px) {
+        .col{
+          width: 10px;
+          height: 10px;
+        }
+      }
+      .buttun{
+        background-color:var(--banafsh);
+        gap: 30%;
+        padding-top: 30px;
+
+      }
+      #paper{
+        background-color: orange;
+        padding: 20px;
+      }
+      #paper:hover{
+        background-color: white;
+        box-shadow: 2px 5px 30px orange;
+      }
+      #scissors{
+        background-color: orange;
+        padding: 20px;
+      }
+      #scissors:hover{
+        background-color: white;
+        box-shadow: 2px 5px 30px orange;
+      }
+      #rock{
+        background-color: orange;
+        padding: 20px;
+      }
+      #rock:hover{
+        background-color: white;
+        box-shadow: 2px 5px 30px orange;
+      }
+      footer{
+        background-color:var(--banafsh);
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .startbtn{
+        background-color:var(--banafsh);
+        font-family: poppins;
+        width:150px;
+        height:64px;
+        padding: 20px 8px 20px 8px;
+        gap: 10px;
+        border: white;
+          border-radius: 16px;
+      }
+      .startbtn:hover{
+
+
+      }
+
